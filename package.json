@@ -10,7 +10,7 @@
     "popper.js": "1.14.3"
   },
   "scripts": {
-    "start": "http-server -o -c-1"
+    "start": "http-server"
   },
   "keywords": [],
   "author": "",

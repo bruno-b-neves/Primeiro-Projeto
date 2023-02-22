@@ -7,42 +7,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
     <main>
-        <section>
-            <nav class="navbar navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a href="#" class="navbar-brand">Logo</a>
-                    <ul class="nav">
-                        <li class="nav-item active">
-                            <a href spa-nav="/src/pages/home.html" class="nav-link text-white">Inicio</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href spa-nav="/src/pages/about.html" class="nav-link text-white">Sobre</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-expanded="false">Documentação</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a href spa-nav="/src/pages/documentation/bootstrap.html" class="dropdown-item">Bootstrap</a>
-                                <a href spa-nav="/src/pages/documentation/jquery.html" class="dropdown-item">Jquery</a>
-                                <div class="dropdown-divider"></div>
+        <div class="row">
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3 bg-dark navbar-dark pt-4 pb-4">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="header ml-0 mb-0">
+                            <a href="index.html" class="navbar-brand nav-link text-white"><h4>FreeLancer</h4></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr class="mt-0 ml-3" style="border: 1px solid #fff">
+                
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="background-img d-block mx-auto mt-4 shadow" style="border-radius: 50%; background-color: #4d565f; width: 180px;">
+                        <img src="/src/images/bruno_neves.jfif" alt="" class="img-fluid" width="200px" style="border-radius: 50%; padding: 5px 5px;">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="title-profile mt-3">
+                            <h5 class="text-center text-white ">Bruno Barbosa Neves</h5>
+                            <p class="text-justify text-center text-white"><i>Developer Front End</i></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr class="mt-0 ml-3" style="border: 1px solid #fff">
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-6 col-sm-6 col-md-5 col-lg-5">
+                                <div class="label-age text-white ml-3">
+                                    <p><i class="fa fa-birthday-cake" aria-hidden="true"></i> <span style="font-size: 17px">- 27 Years</span></p>
+                                </div>
                             </div>
-                        </li>
+                            <div class="col-6 col-sm-6 col-md-7 col-lg-7">
+                                <div class="label-age text-white ml-3">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i><span style="font-size: 17px"> - 2 Years</span>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-sm-6 col-md-5 col-lg-5">
+                                <div class="label-age text-white ml-3">
+                                    <p><i class="fa fa-globe" aria-hidden="true"></i> <span style="font-size: 17px">- Brazil</span></p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-7 col-lg-7">
+                                <div class="label-age text-white ml-3">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> <span> - São Paulo, SP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-sm-8 col-md-8 col-lg-8 bg-white">
+                <section id="conteudo">
+                    <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-white">Apoie</a>
-                            <!-- ESSE CARA PRECISAR ABRIR UM MODAL -->
+                            <a href spa-nav="/src/pages/documentation/bootstrap.html" class="nav-link">Bootstrap</a>
                         </li>
                     </ul>
-                </div>
-            </nav>
-        </section>
-        <section>
-            <section id="conteudo"></section>
-        </section>
+                </section>
+            </div>
+        </div>
     </main>
 
 
