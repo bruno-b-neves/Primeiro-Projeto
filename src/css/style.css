@@ -1,64 +1,154 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&family=Montserrat:wght@300;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap'); 
+
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', 'Roboto', sans-serif;
+    width: auto;
     overflow-x: hidden;
 }
 
-/* STYLE HEADER */
-.background-img-header {
-    background-image: url('/src/images/background_header.jpg');
-    background-repeat: no-repeat;
-    background-position: 25% 25%;
-    height: 450px;
+body {
     width: 100%;
-    z-index: -1 !important;
 }
 
-.text-img-background {
-    text-align: center;
-    text-shadow: 1px 1px 1px #000;
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: .05rem;
-    padding-top: 150px;
-    width: 100%;
-    height: 400px;
-    z-index: 99999;
-    color: #587a9c;
+.bg_navbar-default {
+    margin-bottom: 3rem;
+    padding: 1rem;
+    background-color: rgb(108, 108, 239);
 }
 
-/* STYLE SECTION (DIV) ABOUT */
-.card-title {
-    padding: 20px 40px 10px !important;
+.bg_navbar-default a {
     color: #fff;
-    text-shadow: 1px 1px 1px #000;
 }
 
-.profile-img {
+.bg_navbar-default ul li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.bg_navbar-default a:hover {
+    color: #555f69;
+    transition: .3s;
+
+}
+
+/* SLIDE TEST */
+.carousel .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: -20px;
+    margin-left: -240px;
+    width: 101%;
+    height: 90%;
+    background: rgba(0,0,0,.5);
+    padding: 170px;
+    color: rgb(108, 108, 239);
+    text-shadow: 1px 2px 12px #000000;
+}
+
+
+/* SECTION ABOUT */
+.section-about {
+    margin-top: 80px !important;
+}
+
+.image_profile {
+    margin-top: 70px;
+    background: #f2f2f2;
+    padding:15px 15px !important;
+    width: 535px;
+    box-shadow: 1px 2px 12px #cecece;
+    border-radius: 8px;
+}
+
+.image_profile img {
+    border: 7px solid #fff;
+    border-radius: 8px;
+}
+
+.card-about {
+    border: none;
+    width: 90% !important;
+    border-radius: 8px;
+    height: auto !important;
+}
+
+.card_description-about p span {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .050rem;
+    margin-top: -50px;
+    color: #555f69 !important;
+}
+
+
+.card-about p {
+    font-size: 14px;
+    color: #888888;
+}
+
+.default_layout {
+    font-size: .950em;
+}
+
+.title_information span {
+    color: #555f69;
+    font-weight: 700;
+}
+
+.text_information span {
+    color: #888888;
+    font-weight: 300;
+}
+
+.icon_medias-sociais i {
+    font-size: 35px;
+    color: rgb(108, 108, 239);
+}
+
+
+/* SECTION CONTACT */
+.section-contact {
+    margin-top: 0;
+    margin-left: -14px !important;
+    width: 101% !important;
+    padding-top: 80px;
+    padding-right: 150px;
+    padding-bottom: 90px;
+    padding-left: 150px;
+    background-color: #f2f2f2 !important;
+}
+
+.card-contact {
+    border: none;
+    border-radius: 8px;
+}
+
+.bg-icon {
+    margin-top: 25px;
+    width: 85px;
+    height: 85px;
+    padding: 12px;
     border-radius: 50%;
-    padding: 8px 0px 8px;
+    box-shadow: 1px 2px 12px #e4e4e4;
+
 }
 
-.profile-img img{
-    width: 180px;
-    height: auto;
-    border-radius: 50%;
+.bg-icon i {
+    margin-top: 9px;
+    font-size: 43px;
+    color: rgb(108, 108, 239);
 }
 
-.information-name .label {
-    font-weight: 600;
+.title_type-contact span {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .050rem;
+    margin-top: -50px;
+    color: #555f69 !important;
 }
 
-.information-name .label p {
-    font-weight: normal
-}
-
-.line-default {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 10% !important;
-    float: left;
+.text_information-contact span {
+    font-size: 14px;
+    color: #888888;
 }
