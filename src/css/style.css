@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&family=Montserrat:wght@300;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -63,7 +63,7 @@ body {
 .image_profile {
     margin-top: 70px;
     background: #f2f2f2;
-    padding:15px 15px !important;
+    padding: 15px 15px !important;
     width: 535px;
     box-shadow: 1px 2px 12px #cecece;
     border-radius: 8px;
@@ -145,7 +145,7 @@ body {
 .bg-icon i {
     margin-top: 9px;
     font-size: 43px;
-    color: rgb(108, 108, 239);
+    color: #6c6cef;
 }
 
 .title_type-contact span {
@@ -177,7 +177,7 @@ body {
     background-color: #fff;
 }
 
-.header_title-course span{
+.header_title-course span {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: .050rem;
@@ -226,4 +226,27 @@ body {
 .information_time {
     margin-top: 65px;
     color: #ccc;
+}
+
+/* information progress dev */
+.information_progressDev {
+    padding: 50px 80px;
+    height: 500px;
+    width: 100%;
+}
+
+.default_layout-progress {
+    padding: 5px 20px;
+}
+
+.default_layout-progress .information_title-progress, .information_porcentoProgress {
+    padding: 18px 10px 0;
+}
+
+.information_text-progress span {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .050rem;
+    margin-top: -50px;
+    color: #555f69 !important;
 }
