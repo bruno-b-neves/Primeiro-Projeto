@@ -13,6 +13,7 @@ body {
     width: 100%;
 }
 
+/* NAVBAR LAYOUT */
 .bg_navbar-default {
     margin-bottom: 3rem;
     padding: 1rem;
@@ -35,7 +36,7 @@ body {
 }
 
 /* SLIDE TEST */
-.carousel .carousel-inner .carousel-item .carousel-caption {
+/* .carousel .carousel-inner .carousel-item .carousel-caption {
     margin-bottom: -20px;
     margin-left: -240px;
     width: 101%;
@@ -44,12 +45,19 @@ body {
     padding: 170px;
     color: rgb(108, 108, 239);
     text-shadow: 1px 2px 12px #000000;
-}
+} */
 
+/* **********************************************************************************************************
+*                                                                                                           *
+*                                                                                                           *
+*                                               HOME PAGE                                                   *
+*                                                                                                           *
+*                                                                                                           *
+* ******************************************************************************************************** */
 
-/* SECTION ABOUT */
+/* SECTION RESUME ABOUT */
 .section-about {
-    margin-top: 80px !important;
+    margin-top: 0px !important;
 }
 
 .image_profile {
@@ -151,4 +159,85 @@ body {
 .text_information-contact span {
     font-size: 14px;
     color: #888888;
+}
+
+
+/* **********************************************************************************************************
+*                                                                                                           *
+*                                                                                                           *
+*                                               PAGE ABOUT                                                  *
+*                                                                                                           *
+*                                                                                                           *
+* ******************************************************************************************************** */
+
+.about {
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.header_title-course span{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .050rem;
+    margin-top: -50px;
+    color: #555f69 !important;
+}
+
+.about_information-gray {
+    color: #555f69;
+    background-color: #f2f2f2;
+    padding: 50px 80px;
+    width: 100%;
+    height: 380px;
+}
+
+.about_information-white {
+    color: #555f69;
+    padding: 50px 80px;
+    width: 100%;
+    height: 380px;
+}
+
+.card_course-information {
+    width: 100%;
+    padding: 25px 25px;
+    box-shadow: 1px 2px 12px #e4e4e4;
+    font-size: 15px;
+    color: #888888;
+    border: none;
+    border-radius: 10px;
+}
+
+.card_course-information-second {
+    width: 100%;
+    padding: 25px 25px;
+    font-size: 15px;
+    color: #888888;
+    border: none;
+    border-radius: 10px;
+}
+
+.img_logo-instituicao {
+    background-color: #f2f2f2;
+    width: 180px;
+    height: 180px;
+    padding: 10px 10px;
+    box-shadow: 1px 2px 12px #cecece;
+    border-radius: 10px;
+}
+
+.img_logo-instituicao img {
+    border: 7px solid #fff;
+    border-radius: 8px;
+}
+
+.information_date {
+    margin-top: 65px;
+}
+
+.information_time {
+    margin-top: 65px;
+    color: #ccc;
 }
