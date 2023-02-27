@@ -2,20 +2,34 @@
 <link rel="stylesheet" href="../css/style.css">
 
 <section class="about">
-    <nav class="navbar navbar-expand-lg bg_navbar-default mb-0 shadow">
+    <nav class="navbar navbar-expand-lg bg_navbar-default mb-0 shadow fixed-top">
         <div class="container-fluid pl-4 pr-4">
             <a href="../../index.html" class="navbar-brand">Portfolio</a>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" spa-nav class="nav-link">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Documentações</a>
-                </li>
-            </ul>
+
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav ml-auto">
+                    
+                    <li class="nav-item">
+                        <a href="../../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" spa-nav class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a spa-nav class="nav-link disabled cursor">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Documentações</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -23,15 +37,27 @@
     <div class="about_information">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="breadcrumb_nav">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Sobre</li>
+                        </ol>
+                    </nav>
+                </div>
                 <div class="information_progressDev">
                     <div class="row">
                         <div class="col-md-5 col-lg-5">
-                            <span>Aqui vou colocar uma imagem... Sei qual é, mas estou em dúvida dela.</span>
+                            <div class="image_profile-about ml-auto mr-auto">
+                                <img src="../images/bruno_neves2.png" alt="Bruno Neves Desenvolvedor Front End"
+                                    class="text-center" />
+                            </div>
                         </div>
+
                         <div class="col-md-7 col-lg-7">
                             <div class="card card_course-information d-block mx-auto">
                                 <div class="information_text-progress">
-                                    <span>Este é o Progresso de Conhecimento:</span>
+                                    <span>Conhecimento aprofundado em:</span>
                                 </div>
                                 <hr>
                                 <div class="row">
@@ -51,7 +77,7 @@
                                                 <div class="col-md-2 col-lg-2 ml-0">
                                                     <div class="float-left information_porcentoProgress"
                                                         style="margin-left: -14px; font-size: 14px; margin-top: 21px;">
-                                                        <span>90%</span>
+                                                        <span>80%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -121,10 +147,10 @@
                                             <div class="row">
                                                 <div class="col-md-10 col-lg-10">
                                                     <div class="information_title-progress" style="font-size: 14px;;">
-                                                        <span>HTML & CSS</span>
+                                                        <span>UI & UX</span>
                                                     </div>
                                                     <div class="progress" style="height: 17px; margin-top: 2px;">
-                                                        <div class="progress-bar htmlCss" role="progressbar"
+                                                        <div class="progress-bar uiUX" role="progressbar"
                                                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                                                         </div>
                                                     </div>
@@ -132,7 +158,7 @@
                                                 <div class="col-md-2 col-lg-2 ml-0">
                                                     <div class="float-left information_porcentoProgress"
                                                         style="margin-left: -14px; font-size: 14px; margin-top: 21px;">
-                                                        <span>90%</span>
+                                                        <span>85%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -140,10 +166,10 @@
                                             <div class="row">
                                                 <div class="col-md-10 col-lg-10">
                                                     <div class="information_title-progress" style="font-size: 14px;;">
-                                                        <span>JavaScript</span>
+                                                        <span>NodeJS</span>
                                                     </div>
                                                     <div class="progress" style="height: 17px; margin-top: 2px;">
-                                                        <div class="progress-bar javaScript" role="progressbar"
+                                                        <div class="progress-bar nodeJS" role="progressbar"
                                                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                                                         </div>
                                                     </div>
@@ -151,7 +177,7 @@
                                                 <div class="col-md-2 col-lg-2 ml-0">
                                                     <div class="float-left information_porcentoProgress"
                                                         style="margin-left: -14px; font-size: 14px; margin-top: 21px;">
-                                                        <span>60%</span>
+                                                        <span>40%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -159,10 +185,10 @@
                                             <div class="row">
                                                 <div class="col-md-10 col-lg-10">
                                                     <div class="information_title-progress" style="font-size: 14px;;">
-                                                        <span>Angular</span>
+                                                        <span>Banco de Dados Relacionais</span>
                                                     </div>
                                                     <div class="progress" style="height: 17px; margin-top: 2px;">
-                                                        <div class="progress-bar angular" role="progressbar"
+                                                        <div class="progress-bar dbRelacional" role="progressbar"
                                                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                                                         </div>
                                                     </div>
@@ -170,7 +196,7 @@
                                                 <div class="col-md-2 col-lg-2 ml-0">
                                                     <div class="float-left information_porcentoProgress"
                                                         style="margin-left: -14px; font-size: 14px; margin-top: 21px;">
-                                                        <span>35%</span>
+                                                        <span>8%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -178,10 +204,10 @@
                                             <div class="row">
                                                 <div class="col-md-10 col-lg-10">
                                                     <div class="information_title-progress" style="font-size: 14px;;">
-                                                        <span>VueJS</span>
+                                                        <span>Banco de Dados Não Relacionais</span>
                                                     </div>
                                                     <div class="progress" style="height: 17px; margin-top: 2px;">
-                                                        <div class="progress-bar VueJS" role="progressbar"
+                                                        <div class="progress-bar dbNaoRelacional" role="progressbar"
                                                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                                                         </div>
                                                     </div>
@@ -189,7 +215,7 @@
                                                 <div class="col-md-2 col-lg-2 ml-0">
                                                     <div class="float-left information_porcentoProgress"
                                                         style="margin-left: -14px; font-size: 14px; margin-top: 21px;">
-                                                        <span>15%</span>
+                                                        <span>2%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -432,18 +458,22 @@
 </section>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-crossorigin="anonymous"></script>
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-crossorigin="anonymous"></script>
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-crossorigin="anonymous"></script>
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 
 <script>
-    $('.htmlCss').css({'background-color': '#6c6cef', 'width': '90%'})
-    $('.javaScript').css({'background-color': '#6c6cef', 'width': '60%'})
-    $('.angular').css({'background-color': '#6c6cef', 'width': '35%'})
-    $('.VueJS').css({'background-color': '#6c6cef', 'width': '15%'})
+    $('.htmlCss, javaSricpt').css({ 'background-color': '#6c6cef', 'width': '80%' })
+    $('.javaScript').css({ 'background-color': '#6c6cef', 'width': '60%' })
+    $('.angular').css({ 'background-color': '#6c6cef', 'width': '35%' })
+    $('.vueJS').css({ 'background-color': '#6c6cef', 'width': '15%' })
+    $('.uiUX').css({ 'background-color': '#6c6cef', 'width': '70%' })
+    $('.nodeJS').css({ 'background-color': '#6c6cef', 'width': '40%' })
+    $('.dbRelacional').css({ 'background-color': '#6c6cef', 'width': '8%' })
+    $('.dbNaoRelacional').css({ 'background-color': '#6c6cef', 'width': '2%' })
 </script>

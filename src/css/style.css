@@ -16,7 +16,10 @@ body {
 /* NAVBAR LAYOUT */
 .bg_navbar-default {
     margin-bottom: 3rem;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     background-color: rgb(108, 108, 239);
 }
 
@@ -25,14 +28,20 @@ body {
 }
 
 .bg_navbar-default ul li {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
 }
 
 .bg_navbar-default a:hover {
     color: #555f69;
     transition: .3s;
 
+}
+
+.navbar-collapse {
+    color: #fff !important;
 }
 
 /* SLIDE TEST */
@@ -46,6 +55,9 @@ body {
     color: rgb(108, 108, 239);
     text-shadow: 1px 2px 12px #000000;
 } */
+
+
+
 
 /* **********************************************************************************************************
 *                                                                                                           *
@@ -61,7 +73,7 @@ body {
 }
 
 .image_profile {
-    margin-top: 70px;
+    margin-top: 120px;
     background: #f2f2f2;
     padding: 15px 15px !important;
     width: 535px;
@@ -72,6 +84,8 @@ body {
 .image_profile img {
     border: 7px solid #fff;
     border-radius: 8px;
+    width: 505px;
+    height: 450px;
 }
 
 .card-about {
@@ -111,7 +125,7 @@ body {
 
 .icon_medias-sociais i {
     font-size: 35px;
-    color: rgb(108, 108, 239);
+    color: #6c6cef
 }
 
 
@@ -130,6 +144,8 @@ body {
 .card-contact {
     border: none;
     border-radius: 8px;
+    width: 380;
+    height: 265px;
 }
 
 .bg-icon {
@@ -170,8 +186,19 @@ body {
 *                                                                                                           *
 * ******************************************************************************************************** */
 
-.about {
-    margin-top: 0px;
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb_nav {
+    background-color: #F2F2F2;
+    padding-top: 10px;
+    padding-bottom: -10px !important;
+}
+
+
+.about_information {
+    margin-top: 95px;
     width: 100%;
     height: auto;
     background-color: #fff;
@@ -239,7 +266,8 @@ body {
     padding: 5px 20px;
 }
 
-.default_layout-progress .information_title-progress, .information_porcentoProgress {
+.default_layout-progress .information_title-progress,
+.information_porcentoProgress {
     padding: 18px 10px 0;
 }
 
@@ -249,4 +277,215 @@ body {
     letter-spacing: .050rem;
     margin-top: -50px;
     color: #555f69 !important;
+}
+
+.image_profile-about {
+    margin-top: 10px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 10px 10px;
+    width: 80%;
+    align-items: center;
+}
+
+.image_profile-about img{
+    width: 100%;
+    height: 345px;
+    border: 8px solid #fff;
+    border-radius: 15px;
+}
+
+
+/* contact */
+
+.cursor {
+    cursor: default;
+}
+
+
+
+/* **********************************************************************************************************
+*                                                                                                           *
+*                                                                                                           *
+*                                               MEDIA MOBILE                                                *
+*                                                                                                           *
+*                                                                                                           *
+* ******************************************************************************************************** */
+
+@media (max-width: 576px) {
+
+/* **********************************************************************************************************
+*                                                                                                           *
+*                                                                                                           *
+*                                               HOME PAGE                                                   *
+*                                                                                                           *
+*                                                                                                           *
+* ******************************************************************************************************** */
+
+    /* SECTION RESUME ABOUT */
+    .section-about {
+        margin-top: -50px !important;
+    }
+
+    .image_profile {
+        margin-top: 70px;
+        background: #f2f2f2;
+        padding: 15px 15px !important;
+        width: 100%;
+        box-shadow: 1px 2px 12px #cecece;
+        border-radius: 8px;
+    }
+
+    .image_profile img {
+        border: 7px solid #fff;
+        border-radius: 8px;
+        width: 100%;
+        height: 375px;
+    }
+
+    .card-about {
+        border: none;
+        width: 100% !important;
+        border-radius: 8px;
+        height: auto !important;
+    }
+
+    .card_description-about p span {
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: .050rem;
+        margin-top: -50px;
+        color: #555f69 !important;
+        text-align: justify;
+    }
+
+
+    .card-about p {
+        font-size: 14px;
+        color: #888888;
+    }
+
+    .default_layout {
+        font-size: .950em;
+    }
+
+    .title_information span {
+        color: #555f69;
+        font-weight: 700;
+    }
+
+    .text_information span {
+        color: #888888;
+        font-weight: 300;
+    }
+
+    .icon_medias-sociais i {
+        font-size: 35px;
+        color: #6c6cef
+    }
+
+
+    /* SECTION CONTACT */
+    .section-contact {
+        margin-top: 0;
+        margin-left: -14px !important;
+        width: 101% !important;
+        padding-top: 80px;
+        padding-right: 150px;
+        padding-bottom: 90px;
+        padding-left: 150px;
+        background-color: #f2f2f2 !important;
+    }
+
+    .card-contact {
+        border: none;
+        border-radius: 8px;
+    }
+
+    .bg-icon {
+        margin-top: 25px;
+        width: 85px;
+        height: 85px;
+        padding: 12px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 12px #e4e4e4;
+
+    }
+
+    .bg-icon i {
+        margin-top: 9px;
+        font-size: 43px;
+        color: #6c6cef;
+    }
+
+    .title_type-contact span {
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: .050rem;
+        margin-top: -50px;
+        color: #555f69 !important;
+    }
+
+    .text_information-contact span {
+        font-size: 14px;
+        color: #888888;
+    }
+
+    /* SECTION CONTACT */
+    .section-contact {
+        margin-top: 0;
+        margin-left: 0px !important;
+        width: 100% !important;
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        background-color: #f2f2f2 !important;
+    }
+
+    .card-contact {
+        border: none;
+        border-radius: 8px;
+        width: 400px;
+        height: 250px;
+    }
+
+    .bg-icon {
+        margin-top: 25px;
+        width: 85px;
+        height: 85px;
+        padding: 12px;
+        border-radius: 50%;
+        box-shadow: 1px 2px 12px #e4e4e4;
+
+    }
+
+    .bg-icon i {
+        margin-top: 9px;
+        font-size: 43px;
+        color: #6c6cef;
+    }
+
+    .title_type-contact span {
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: .050rem;
+        margin-top: -50px;
+        color: #555f69 !important;
+    }
+
+    .text_information-contact span {
+        font-size: 14px;
+        color: #888888;
+    }
+
+/* **********************************************************************************************************
+*                                                                                                           *
+*                                                                                                           *
+*                                               PAGE ABOUT                                                  *
+*                                                                                                           *
+*                                                                                                           *
+* ******************************************************************************************************** */
+
+
 }
