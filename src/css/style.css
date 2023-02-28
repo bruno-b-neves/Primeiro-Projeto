@@ -20,7 +20,7 @@ body {
     padding-bottom: 1rem;
     padding-left: 0rem;
     padding-right: 0rem;
-    background-color: rgb(108, 108, 239);
+    background-color: rgba(108, 108, 239, .9);
 }
 
 .bg_navbar-default a {
@@ -150,7 +150,7 @@ body {
 
 .card-contact {
     border: none;
-    border-radius: 8px;
+    border-radius: 15px;
     width: 380;
     height: 265px;
 }
@@ -204,228 +204,81 @@ body {
 }
 
 
+.section-servicos {
+    width: auto;
+    height: 400px;
+    background-color: #f2f2f2;
+    padding: 70px 100px;
+}
+
+.section-servicos .card-servicos {
+    background-color: #ffff;
+    height: 225px;
+    z-index: 9999;
+    border: none;
+    border-radius: 15px;
+}
 
 
+.bg-icon-servicos {
+    margin-top: 35px;
+    width: 85px;
+    height: 85px;
+    padding: 0px 8px;
+    border-radius: 50%;
+    background: #6c6cef;
+}
+
+.bg-icon-servicos i {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    color: #fff !important;
+    box-shadow: 4px 4px 4px #0000 !important;
+    font-size: 41px;
+    padding: 22px 0;
+}
 
 
+.title-servicos {
+    margin: 20px 0px;
+    font-size: 19px;
+    color: #555F69;
+    font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-.about_information-courses {
-    margin-top: 75px !important;
-    background: #f2f2f2;
+.section-certificacoes {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
     padding: 50px 50px;
 }
 
-.card_course-information {
-    margin: 20px 0;
-    padding: 30px 30px;
-    box-shadow: 4px 4px 12px #ededed;
-    border-radius: 15px;
-}
-
-.card_course-information .img_logo-instituicao {
-    background-color: #f2f2f2;
-    padding: 12px 12px;
-    width: 185px;
-    border-radius: 15px;
-}
-
-.card_course-information .img_logo-instituicao img {
+.bg-pesquisar {
     background-color: #fff;
-    padding: 6px 6px;
-    border-radius: 15px;
 }
 
-
-/* **********************************************************************************************************
-*                                                                                                           *
-*                                             MEDIA MOBILE                                                  *
-*                                               HOME PAGE                                                   *
-*                                                                                                           *
-*                                                                                                           *
-* ******************************************************************************************************** */
-
-
-
-
-
-
-
-@media (max-width: 820px) {}
-
-
-@media (max-width: 500px) {
-
-    /* **********************************************************************************************************
-*                                                                                                           *
-*                                             MEDIA MOBILE                                                  *
-*                                               HOME PAGE                                                   *
-*                                                                                                           *
-*                                                                                                           *
-* ******************************************************************************************************** */
-
-    /* SECTION RESUME ABOUT */
-    .section-about {
-        margin-top: -50px !important;
-    }
-
-    .image_profile {
-        margin-top: 70px;
-        background: #f2f2f2;
-        padding: 15px 15px !important;
-        width: 100%;
-        box-shadow: 1px 2px 12px #cecece;
-        border-radius: 8px;
-    }
-
-    .image_profile img {
-        border: 7px solid #fff;
-        border-radius: 8px;
-        width: 100%;
-        height: 375px;
-    }
-
-    .card-about {
-        border: none;
-        width: 100% !important;
-        border-radius: 8px;
-        height: auto !important;
-    }
-
-    .card_description-about p span {
-        font-size: 20px;
-        font-weight: bold;
-        letter-spacing: .050rem;
-        margin-top: -50px;
-        color: #555f69 !important;
-        text-align: justify;
-    }
-
-
-    .card-about p {
-        font-size: 14px;
-        color: #888888;
-    }
-
-    .default_layout {
-        font-size: .950em;
-    }
-
-    .title_information span {
-        color: #555f69;
-        font-weight: 700;
-    }
-
-    .text_information span {
-        color: #888888;
-        font-weight: 300;
-    }
-
-    .icon_medias-sociais i {
-        font-size: 35px;
-        color: #6c6cef
-    }
-
-
-    /* SECTION CONTACT */
-    .section-contact {
-        margin-top: 0;
-        margin-left: -14px !important;
-        width: 101% !important;
-        padding-top: 80px;
-        padding-right: 150px;
-        padding-bottom: 90px;
-        padding-left: 150px;
-        background-color: #f2f2f2 !important;
-    }
-
-    .card-contact {
-        border: none;
-        border-radius: 8px;
-    }
-
-    .bg-icon {
-        margin-top: 25px;
-        width: 85px;
-        height: 85px;
-        padding: 12px;
-        border-radius: 50%;
-        box-shadow: 1px 2px 12px #e4e4e4;
-
-    }
-
-    .bg-icon i {
-        margin-top: 9px;
-        font-size: 43px;
-        color: #6c6cef;
-    }
-
-    .title_type-contact span {
-        font-size: 20px;
-        font-weight: bold;
-        letter-spacing: .050rem;
-        margin-top: -50px;
-        color: #555f69 !important;
-    }
-
-    .text_information-contact span {
-        font-size: 14px;
-        color: #888888;
-    }
-
-    /* SECTION CONTACT */
-    .section-contact {
-        margin-top: 0;
-        margin-left: 0px !important;
-        width: 100% !important;
-        padding-top: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        padding-left: 50px;
-        background-color: #f2f2f2 !important;
-    }
-
-    .card-contact {
-        border: none;
-        border-radius: 8px;
-        width: 400px;
-        height: 250px;
-    }
-
-    .bg-icon {
-        margin-top: 25px;
-        width: 85px;
-        height: 85px;
-        padding: 12px;
-        border-radius: 50%;
-        box-shadow: 1px 2px 12px #e4e4e4;
-
-    }
-
-    .bg-icon i {
-        margin-top: 9px;
-        font-size: 43px;
-        color: #6c6cef;
-    }
-
-    .title_type-contact span {
-        font-size: 20px;
-        font-weight: bold;
-        letter-spacing: .050rem;
-        margin-top: -50px;
-        color: #555f69 !important;
-    }
-
-    .text_information-contact span {
-        font-size: 14px;
-        color: #888888;
-    }
-    
+.input-group-text {
+    background-color: #6c6cef;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
 }
+
+.form-control {
+    border: 1px solid #6c6cef;
+}
+
+.btn-outline-primary {
+    border-radius: none;
+    border: 1px solid #6c6cef;
+    color: #6c6cef;
+    padding: 8px  15px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6c6cef;
+    border: 1px solid #6c6cef;
+}
+
