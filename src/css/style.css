@@ -57,19 +57,9 @@ body {
 } */
 
 
-
-
-/* **********************************************************************************************************
-*                                                                                                           *
-*                                                                                                           *
-*                                               HOME PAGE                                                   *
-*                                                                                                           *
-*                                                                                                           *
-* ******************************************************************************************************** */
-
 /* SECTION RESUME ABOUT */
 .section-about {
-    margin-top: 0px !important;
+    margin-top: 60px !important;
 }
 
 .image_profile {
@@ -136,6 +126,140 @@ body {
 }
 
 
+/* CARD SERVICOS */
+.section-servicos .card-servicos {
+    margin-top: 20px;
+    background-color: #ffff;
+    height: 225px;
+    z-index: 9999;
+    border: none;
+    border-radius: 15px;
+}
+
+.bg-icon-servicos {
+    margin-top: 35px;
+    width: 85px;
+    height: 85px;
+    padding: 0px 8px;
+    border-radius: 50%;
+    background: #6c6cef;
+}
+
+.bg-icon-servicos i {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    color: #fff !important;
+    box-shadow: 4px 4px 4px #0000 !important;
+    font-size: 41px;
+    padding: 22px 0;
+}
+
+
+.title-servicos {
+    margin: 20px 0px;
+    font-size: 19px;
+    color: #555F69;
+    font-weight: bold;
+}
+
+.section-servicos {
+    width: auto;
+    height: 400px;
+    background-color: #f2f2f2;
+    padding: 70px 100px;
+}
+
+/* SECTION CERTIFICACOES */
+
+.section-certificacoes {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 50px 50px;
+}
+
+.section-certificacoes .header {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 50px 0px 30px 0;
+}
+
+.section-certificacoes .header .title-certificacoes span {
+    font-size: 32px;
+    font-weight: bold;
+    color: #555F69;
+    letter-spacing: 0.050rem;
+}
+
+.section-certificacoes .header .subtitle-certificacoes {
+    margin: 0px 50px;
+    padding: 20px 105px;
+}
+
+.section-certificacoes .header .subtitle-certificacoes span {
+    font-size: 14px;
+    color: #888888;
+    
+}
+
+.layout-filter {
+    padding: 0 50px;
+}
+
+.btn-outline-default {
+    border: 1px solid #6c6cef;
+    color: #6c6cef !important;
+    margin: 0px 5px;
+    padding: 10px 40px;
+    font-size: 14px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.btn-outline-default:hover {
+    border: 1px solid #6c6cef;
+    border-radius: 12px;
+    background-color: #6c6cef;
+    color: #fff !important;
+    transition: 0.7s;
+}
+
+.default-layout-certificacoes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 80px;
+    height:  400px;
+}
+
+.default-layout-certificacoes .card-certificado {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px #e4e4e4;
+}
+
+.card-certificado .card-footer-certificado {
+    padding: 20px 30px;
+}
+
+.card-img-certificado {
+    width: 100%;
+    height: 265px;
+}
+
+
+.card-img-certificado img{
+    margin: 10px 0px;
+    width: 95%;
+    height: 80%;
+}
+
+
 /* SECTION CONTACT */
 .section-contact {
     margin-top: 0;
@@ -151,8 +275,8 @@ body {
 .card-contact {
     border: none;
     border-radius: 15px;
-    width: 380;
-    height: 265px;
+    width: 380px;
+    height: 250px;
 }
 
 .bg-icon {
@@ -203,82 +327,4 @@ body {
     font-size: 1.5rem;
 }
 
-
-.section-servicos {
-    width: auto;
-    height: 400px;
-    background-color: #f2f2f2;
-    padding: 70px 100px;
-}
-
-.section-servicos .card-servicos {
-    background-color: #ffff;
-    height: 225px;
-    z-index: 9999;
-    border: none;
-    border-radius: 15px;
-}
-
-
-.bg-icon-servicos {
-    margin-top: 35px;
-    width: 85px;
-    height: 85px;
-    padding: 0px 8px;
-    border-radius: 50%;
-    background: #6c6cef;
-}
-
-.bg-icon-servicos i {
-    display: block;
-    margin: 0px auto;
-    width: 100%;
-    color: #fff !important;
-    box-shadow: 4px 4px 4px #0000 !important;
-    font-size: 41px;
-    padding: 22px 0;
-}
-
-
-.title-servicos {
-    margin: 20px 0px;
-    font-size: 19px;
-    color: #555F69;
-    font-weight: bold;
-}
-
-.section-certificacoes {
-    display: block;
-    width: auto;
-    height: auto;
-    margin: 0;
-    padding: 50px 50px;
-}
-
-.bg-pesquisar {
-    background-color: #fff;
-}
-
-.input-group-text {
-    background-color: #6c6cef;
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
-}
-
-.form-control {
-    border: 1px solid #6c6cef;
-}
-
-.btn-outline-primary {
-    border-radius: none;
-    border: 1px solid #6c6cef;
-    color: #6c6cef;
-    padding: 8px  15px;
-}
-
-.btn-outline-primary:hover {
-    background-color: #6c6cef;
-    border: 1px solid #6c6cef;
-}
 
