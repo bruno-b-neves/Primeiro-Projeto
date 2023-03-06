@@ -87,6 +87,7 @@ body {
     width: 90% !important;
     border-radius: 8px;
     height: auto !important;
+    margin-left: 0px;
 }
 
 .card_description-about p span {
@@ -346,3 +347,44 @@ body {
 }
 
 
+@media( max-width: 500px ) {
+    .section-about {
+        margin-top: 60px;
+    }
+
+    .image_profile {
+        margin-top: 0;
+        background-color: #6c6cef;
+        padding: 0px 0px;
+        width: 380px;
+        height: auto;
+        box-shadow: 1px 2px 12px #cecece;
+        border-radius: 15px;
+    }
+
+    .image_profile img {
+        border: 8px solid #fff;
+        border-radius: 15px;
+        width: 350px;
+        height: auto;
+    }
+
+    .card-about {
+        margin-top: 30px;
+        margin-left: -20px;
+        width: 430px;
+        height: auto;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .card_description-about p span {
+        margin-top: -50px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #555F69;
+        letter-spacing: .050rem;
+    }
+
+
+}
