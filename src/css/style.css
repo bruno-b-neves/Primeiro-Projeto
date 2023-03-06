@@ -346,6 +346,286 @@ body {
     font-size: 1.5rem;
 }
 
+@media ( max-width: 1366px ) {
+    /* SECTION RESUME ABOUT */
+.section-about {
+    margin-top: 60px !important;
+}
+
+.image_profile {
+    margin-top: 120px;
+    background: #6c6cef;
+    padding: 15px 15px !important;
+    width: 100%;
+    box-shadow: 1px 2px 12px #cecece;
+    border-radius: 15px;
+}
+
+.image_profile img {
+    border: 7.5px solid #fff;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.card-about {
+    border: none;
+    width: 90% !important;
+    border-radius: 8px;
+    height: auto !important;
+    margin-left: 20px;
+}
+
+.card_description-about p span {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .050rem;
+    margin-top: -50px;
+    color: #555f69 !important;
+}
+
+
+.card-about p {
+    font-size: 13px;
+    color: #888888;
+}
+
+.default_layout {
+    font-size: .950em;
+}
+
+.title_information span {
+    color: #555f69;
+    font-weight: 700;
+}
+
+.text_information span {
+    color: #888888;
+    font-weight: 300;
+}
+
+.icon_medias-sociais i {
+    font-size: 35px;
+    color: #6c6cef
+}
+
+
+
+/* CARD SERVICOS */
+.section-servicos .card-servicos {
+    margin-top: 20px;
+    background-color: #ffff;
+    height: 225px;
+    z-index: 9999;
+    border: none;
+    border-radius: 15px;
+}
+
+.bg-icon-servicos {
+    margin-top: 35px;
+    width: 85px;
+    height: 85px;
+    padding: 0px 8px;
+    border-radius: 50%;
+    background: #6c6cef;
+}
+
+.bg-icon-servicos i {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    color: #fff !important;
+    box-shadow: 4px 4px 4px #0000 !important;
+    font-size: 41px;
+    padding: 22px 0;
+}
+
+
+.title-servicos {
+    margin: 20px 0px;
+
+    font-size: 18px;
+    color: #555F69;
+    font-weight: bold;
+    letter-spacing: .03rem;
+}
+
+.section-servicos {
+    width: auto;
+    height: 400px;
+    background-color: #f2f2f2;
+    padding: 70px 100px;
+}
+
+/* SECTION CERTIFICACOES */
+.certificacoes_layout-default {
+    width: 100% !important;
+}
+
+.section-certifacoes {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 30px 0px !important;
+    padding: 150px 50px !important;
+}
+
+.card_course-information {
+    padding: 0px 15px;
+    margin: 0px 0px;
+    border: none;
+}
+
+.img_logo-instituicao {
+    background-color: #6c6cef;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 98%;
+}
+
+.img_logo-instituicao img {
+    background-color: #fff;
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 15px;
+}
+
+
+.header_title-course {
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    height: auto;
+}
+
+.descom {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.header_title-course span{
+    color: #555F69;
+    font-weight: bold;
+    letter-spacing: .03rem;
+}
+
+.body_text-course {
+    margin: 0 0 50px;
+    padding: 0;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.body_text-course span {
+    font-size: 13.5px;
+    font-weight: 300;
+    color: #888;
+    letter-spacing: 0.03rem;
+}
+
+.information_date span, .information_time span{
+    color: #555F69;
+    font-size: 13px;
+    letter-spacing: 0.03rem;
+}
+
+.diome {
+    margin-bottom: 122px;
+}
+
+.cod3r {
+    margin-bottom: 193.5px;
+}
+ 
+.section-certificacoes .header .title-certificacoes span {
+    font-size: 32px;
+    font-weight: bold;
+    color: #555F69;
+    letter-spacing: 0.050rem;
+}
+
+.section-certificacoes .header .subtitle-certificacoes {
+    margin: 0px 50px;
+    padding: 20px 105px;
+}
+
+.section-certificacoes .header .subtitle-certificacoes span {
+    font-size: 14px;
+    color: #888888;
+    
+}
+
+
+
+/* SECTION CONTACT */
+.section-contact {
+    margin-top: 0;
+    width: 100%;
+    padding-top: 80px;
+    padding-right: 150px;
+    padding-bottom: 90px;
+    padding-left: 150px;
+    background-color: #f2f2f2 !important;
+}
+
+.card-contact {
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 250px;
+}
+
+.bg-icon {
+    margin-top: 25px;
+    width: 85px;
+    height: 85px;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 12px #e4e4e4;
+
+}
+
+.bg-icon i {
+    margin-top: 9px;
+    font-size: 43px;
+    color: #6c6cef;
+}
+
+.title_type-contact span {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .050rem;
+    margin-top: -50px;
+    color: #555f69 !important;
+}
+
+.text_information-contact span {
+    font-size: 13px;
+    color: #888888;
+}
+
+/* FOOTER */
+.section_footer {
+    padding: 32px 0px;
+    background-color: rgba(108, 108, 239, .9);
+    color: #fff;
+    width: auto;
+    height: 80px;
+    overflow-y: hidden;
+}
+
+.section_footer p {
+    font-size: 1.2rem;
+}
+
+.section_footer .icon_medias-sociais-footer i {
+    color: #fff;
+    font-size: 1.5rem;
+}
+}
 
 @media( max-width: 500px ) {
     .section-about {
