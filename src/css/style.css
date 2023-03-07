@@ -178,15 +178,15 @@ body {
 
 /* SECTION CERTIFICACOES */
 .certificacoes_layout-default {
-    width: 93% !important;
+    width: 93%;
 }
 
 .section-certifacoes {
     display: block;
     width: 100%;
     height: auto;
-    margin: 30px 0px !important;
-    padding: 150px 50px !important;
+    margin: 30px 0px;
+    padding: 150px 50px;
 }
 
 .card_course-information {
@@ -277,12 +277,84 @@ body {
     
 }
 
+/* CUSTOM INSTITUIÇÕES */
 
+.section-instituicoes {
+    display: block;
+    margin: 0;
+    padding: 30px 30px;
+    width: auto;
+    height: auto;
+}
+
+.section-instituicoes .header span {
+    font-size: 30px;
+    color: #555F69;
+    font-weight: 700;
+}
+
+.section-instituicoes .header .text-subtitle {
+    margin: 20px 0;
+    padding: 0px 350px;
+}
+
+.section-instituicoes .header .text-subtitle span {
+    font-size: 14px;
+    font-weight: 300;
+    color: #888;
+}
+
+.section-instituicoes .buttons-instituicoes {
+    margin: 30px 0px 0px 0px;
+    padding: 0px 200px;
+}
+
+.btn {
+    padding: 20px 55px;
+    border-radius: 15px;
+   font-size: 14px;
+}
+
+/* .btn-coder {
+    padding: 10px 120px;
+    border-radius: 15px;
+}
+ */
+.btn-primary {
+    background-color: #6c6cef;
+    border: 1px solid #6c6cef;
+    box-shadow: 4px 8px 50px #0000;
+}
+
+.btn-primary:hover {
+    background-color: #5b5bee;
+    color: #e1e1e1;
+    border: 1px solid #5b5bee;
+}
+
+.btn-previous .btn-close .btn-next {
+    padding: 0px 0px !important;
+}
+
+.modal-body .default-modal-text span {
+    color: #888;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.modal-body .default-list {
+    font-size: 14px;
+    color: #888;
+    font-weight: 300;
+}
+
+.default-list ol {
+    list-style: decimal !important;
+}
 
 /* SECTION CONTACT */
 .section-contact {
     margin-top: 0;
-    margin-left: -14px !important;
     width: 101% !important;
     padding-top: 80px;
     padding-right: 150px;
@@ -415,7 +487,7 @@ body {
 .section-servicos .card-servicos {
     margin-top: 20px;
     background-color: #ffff;
-    height: 225px;
+    height: 230px;
     z-index: 9999;
     border: none;
     border-radius: 15px;
@@ -466,8 +538,8 @@ body {
     display: block;
     width: 100%;
     height: auto;
-    margin: 30px 0px !important;
-    padding: 150px 50px !important;
+    margin: 30px 0px;
+    padding: 150px 50px;
 }
 
 .card_course-information {
@@ -630,13 +702,15 @@ body {
 @media( max-width: 500px ) {
     .section-about {
         margin-top: 60px;
+        width: auto;
+        height: auto;
     }
 
     .image_profile {
         margin-top: 0;
         background-color: #6c6cef;
-        padding: 0px 0px;
-        width: 380px;
+        padding: 12px px;
+        width: auto;
         height: auto;
         box-shadow: 1px 2px 12px #cecece;
         border-radius: 15px;
@@ -645,14 +719,14 @@ body {
     .image_profile img {
         border: 8px solid #fff;
         border-radius: 15px;
-        width: 350px;
+        width: 265px;
         height: auto;
     }
 
     .card-about {
         margin-top: 30px;
         margin-left: -20px;
-        width: 430px;
+        width: auto !important;
         height: auto;
         border: none;
         border-radius: 8px;
@@ -665,6 +739,35 @@ body {
         color: #555F69;
         letter-spacing: .050rem;
     }
+
+    .default_layout  {
+        padding: 10px 10px !important;
+        font-size: 13.5px;
+        margin-left: 0px !important;
+    }
+
+    .section-servicos {
+        margin: 0px 0px 30px 0px ;
+        height: auto;
+        padding: 10px 15px 30px;
+    }
+
+    .section-instituicoes {
+        display: block;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        padding: 0;
+    }
+
+    .header span {
+        color: #555F69;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.080rem;
+    }
+
 
 
 }
